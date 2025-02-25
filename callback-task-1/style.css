@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(209, 167, 248);
+}
+
+#message {
+    display: none;
+    /* margin-top: 30px; */
+    font-size: 20px;
+    color: green;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    background-color: #f0f8f0;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#startButton {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#postsList {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+#postsList li {
+    margin: 10px 0;
+    font-size: 16px;
+}
